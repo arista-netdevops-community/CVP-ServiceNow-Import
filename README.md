@@ -36,12 +36,17 @@ Take note of the instance name, username, and password.
 This example uses a tenant within CVaaS and a service account token.
 
 - Once logged in to your CVP instance, click on the gear on the top right.
+
   ![CVP-gear](images/cvp-gear.png)
+
 - Click on Service Accounts
+
   ![SA](images/cvp-sa-menu.png)
+
 - Click New Service Account and enter a name and description
 - Select `network-operator` as the role to have read-only privileges
 - Click Add
+
   ![SA Creation](images/sa-creation.png)
 
 Once this is complete, we will generate a token for our service account.
@@ -51,6 +56,7 @@ Once this is complete, we will generate a token for our service account.
 - Click Generate
 - Make sure to copy the token, we will use this in the next step
 - Click Save
+
   ![Token](images/token-creation.png)
 
 ### Set environment variables in .env file
